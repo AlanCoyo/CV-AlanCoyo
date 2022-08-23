@@ -1,0 +1,81 @@
+html {
+    text-align:center;
+    color:rgb(194, 255, 255);
+    font-family: 'Franklin Gothic Medium';
+    background-color:rgb(32, 32, 32);
+}
+
+.class{
+    border-radius:3px;
+    /*box-shadow: 5px 5px 5px cyan;*/
+    /*height: 200px;
+    width: 200px;*/
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /*margin: 20px 20px 20px 20px;*/
+    color:rgb(32, 32, 32);
+    background-color:cyan;
+
+}
+p{
+    margin: 0 auto;
+}
+
+div.p{
+    font-size: 30px;
+}
+
+div h2,div h3 {
+    font-weight: 700;
+    color:darkred;
+}
+
+.border{
+    border-radius: 5px;
+    border-color:cyan;
+    border-style:ridge;
+    border-width: 5px;
+
+    margin: 45px;
+    padding: 15px;
+}
+
+img {
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+
+body{
+    font-family: 'Franklin Gothic Medium';
+    background: rgb(32, 32, 32);
+}
+
+.menu{
+    border-radius:8px;
+    list-style: none;
+    padding: 0;
+    background: cyan;
+    width: 35%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    border-radius:5px;
+    background: rgb(194, 255, 255);
+}
